@@ -1,0 +1,2 @@
+class HplaceController < ApplicationController
+end

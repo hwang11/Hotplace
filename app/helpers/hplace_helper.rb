@@ -1,0 +1,2 @@
+module HplaceHelper
+end
