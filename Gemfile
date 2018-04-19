@@ -5,7 +5,26 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#bootstrap
+gem 'bootstrap', '~> 4.0.0'
+gem 'jquery-rails'
+#jquery & ajax
 
+#회원관리
+gem 'devise'
+
+#bootstrap paginate
+gem 'will_paginate-bootstrap'
+#pagination
+gem 'will_paginate', '~> 3.0.6'
+
+#이미지업로드
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+gem 'mini_magick'
+gem 'fog-aws'
+
+#루비 디버깅?
+gem 'byebug'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
