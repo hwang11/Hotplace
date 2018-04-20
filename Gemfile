@@ -12,7 +12,6 @@ gem 'jquery-rails'
 
 #회원관리
 gem 'devise'
-
 #bootstrap paginate
 gem 'will_paginate-bootstrap'
 #pagination
@@ -23,12 +22,12 @@ gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'mini_magick'
 gem 'fog-aws'
 
-#루비 디버깅?
-gem 'byebug'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+#mysql
+gem 'mysql2', '>= 0.3.18', '< 0.5'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets

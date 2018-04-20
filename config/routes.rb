@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  devise_for :user2s
 
+  devise_for :users
   get "hplaces/cafe"
   get "hplaces/culture"
   get "hplaces/food"
